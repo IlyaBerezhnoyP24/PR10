@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApartmentZ - Find Your Perfect Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="header-transparent">
+        <div class="top-bar">
+            <div class="container flex-between">
+                <div class="contact-info">
+                    <span>📞 (888) 111-222</span>
+                    <span>✉️ support@apartmentz.com</span>
+                </div>
+                <div class="top-links">
+                    <span>🌐 English</span>
+                    <a href="#">Sign Up / Sign In</a>
+                    <span class="social-icons">📸 🔵 🔴 🕊️</span>
+                </div>
+            </div>
+        </div>
+
+        <header class="header">
+            <div class="container flex-between">
+                <div class="logo">Apartment<span class="accent-text">Z</span></div>
+                <nav class="nav">
+                    <a href="#" class="nav-link">Manage Rentals</a>
+                    <button class="btn-green">Add A Property</button>
+                    <button class="menu-toggle">☰</button>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <main>
+        <section class="hero">
+        <div class="hero-bg">
+            <img src="assets/images/house0.jpg" alt="City View">
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text-block">
+
+                <h1>Discover Your New <span class="accent-text">Home</span></h1>
+                <p>Helping 100 million renters find their perfect fit.</p>
+                
+                <div class="search-panel">
+                    <div class="search-field">
+                        <label>Current Location</label>
+                        <input type="text" placeholder="Enter your Location">
+                    </div>
+                    <div class="search-field">
+                        <label>Type</label>
+                        <input type="text" placeholder="Enter house type">
+                    </div>
+                    <div class="search-field">
+                        <label>Price</label>
+                        <input type="text" placeholder="Enter the price">
+                    </div>
+                    <button class="btn-explore">Explore Now ➔</button>
+                </div>
+
+                <div class="stats">
+                    <div><strong>20+</strong><p>Years of experience</p></div>
+                    <div><strong>800+</strong><p>Property Ready</p></div>
+                    <div><strong>1450+</strong><p>Happy Customers</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section class="rentals">
+            <div class="container">
+                <div class="flex-between section-head">
+                    <h2>Explore Rentals in Chicago, IL</h2>
+                    <div class="slider-controls">
+                        <button class="slider-btn prev">❮</button>
+                        <button class="slider-btn next">❯</button>
+                        <a href="#" class="view-all">View All ➔</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-wrapper">
+                <div class="cards-slider" id="rentalSlider">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('assets/images/house1.jpg');"></div>
+                        <div class="card-overlay">
+                            <h3>Presidential Towers</h3>
+                            <p>📍 555 W Madison St, Chicago, IL 60661</p>
+                            <div class="card-details">
+                                <span>Studio - 2 Beds</span>
+                                <span class="price">$1,475 - $6,080</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('assets/images/house2.jpg');"></div>
+                        <div class="card-overlay">
+                            <h3>Shoreham And Tides</h3>
+                            <p>📍 400 E South Water St, Chicago, IL 60601</p>
+                            <div class="card-details">
+                                <span>Studio - 2 Beds</span>
+                                <span class="price">$2,009 - $5,357</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('assets/images/house3.jpg');"></div>
+                        <div class="card-overlay">
+                            <h3>Elevate</h3>
+                            <p>📍 930 W Altgeld St, Chicago, IL 60614</p>
+                            <div class="card-details">
+                                <span>Studio - 3 Beds</span>
+                                <span class="price">$1,890 - $13,443</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('assets/images/house4.jpg');"></div>
+                        <div class="card-overlay">
+                            <h3>The Lex</h3>
+                            <p>📍 2138 S Indiana Ave, Chicago, IL 60616</p>
+                            <div class="card-details">
+                                <span>Studio - 3 Beds</span>
+                                <span class="price">$1,650 - $4,200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-banner container">
+            <div class="banner-card dark-overlay" style="background-image: url('assets/images/house4.jpg');">
+                <div class="banner-content">
+                    <h2>Renting Made Simple</h2>
+                    <p>Browse the highest quality listings, apply online, sign your lease, and even pay your rent from any device.</p>
+                    <button class="btn-outline-white">Find Out More</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-block container">
+            <h2>Discover Homeownership on yourself</h2>
+            <p style="margin-bottom: 30px; color: #666;">Renting is great, but maybe you’re thinking about buying a home instead.</p>
+            <div class="banner-card dark-overlay" style="background-image: url('assets/images/house5.jpg'); min-height: 300px;">
+                <div class="banner-content">
+                    <h2>Explore Your Options</h2>
+                    <p>Deciding to become a homeowner is a big deal! Luckily, with Homes.com, you get accurate listings.</p>
+                    <button class="btn-outline-white">Start Your Search</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="property-management container">
+            <div class="flex-side-by-side">
+                <div class="text-side">
+                    <h2>The Perfect Place to Manage Your Property</h2>
+                    <p>Work with the best suite of property management tools on the market.</p>
+                    <div class="management-cards">
+                        <div class="m-card green">
+                            <h3>Advertise Your Rental</h3>
+                            <button class="btn-white-text">Find Out More</button>
+                        </div>
+                        <div class="m-card brown">
+                            <h3>Lease 100% Online</h3>
+                            <button class="btn-white-text">Find Out More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-side" style="background-image: url('assets/images/house1.jpg');"></div>
+            </div>
+        </section>
+
+        <section class="resources container">
+            <div class="grid-3">
+                <div class="res-card green">
+                    <h3>Tips For Renters</h3>
+                    <button class="btn-pill">Browse Articles</button>
+                </div>
+                <div class="res-card brown">
+                    <h3>Property Manager Resources</h3>
+                    <button class="btn-pill">Stay Informed</button>
+                </div>
+                <div class="res-card light-green">
+                    <h3>Take Us With You</h3>
+                    <p>Download the ApartmentZ app for iOS and Android.</p>
+                    <button class="btn-pill">Get the App</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" style="padding: 60px 0;">
+            <div class="green-box">
+                <div class="green-box-content">
+                    <h2>Search over 1 million listings</h2>
+                    <p>Find your next home, in any style you prefer.</p>
+                </div>
+                <div class="simple-search">
+                    <input type="text" placeholder="Enter Keyword">
+                    <button class="btn-white">Search</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container grid-footer">
+            <div class="footer-brand">
+                <div class="logo white-text" style="color: white; margin-bottom: 20px;">Apartment<span class="accent-text">Z</span></div>
+                <p>Search over 1 million listings including apartments, houses, condos, and townhomes. You’ll find your next home, in any style you prefer.</p>
+                <div class="contact-info-footer" style="margin-top: 25px;">
+                    <p>📞 (888) 111-222</p>
+                    <p>✉️ support@apartmentz.com</p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>ABOUT US</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>ADVERTISERS</h4>
+                <ul>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Add a Property</a></li>
+                    <li><a href="#">Digital Feeds</a></li>
+                    <li><a href="#">Customer Portal</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>NEIGHBORHOODS</h4>
+                <ul>
+                    <li><a href="#">Las Colinas</a></li>
+                    <li><a href="#">Bronx, NYC</a></li>
+                    <li><a href="#">Hyde Park</a></li>
+                    <li><a href="#">Lincoln Park</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>RENTAL MANAGER</h4>
+                <ul>
+                    <li><a href="#">Rental Manager</a></li>
+                    <li><a href="#">List a Property</a></li>
+                    <li><a href="#">Post a Listing</a></li>
+                    <li><a href="#">Online Leases</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container flex-between">
+                <p>© 2024 ApartmentZ. All Rights Reserved. Designed by YourName</p>
+                <div class="social-links">
+                    <span>Follow us: 🔵 🔴 📸</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const slider = document.getElementById('rentalSlider');
+        const prevBtn = document.querySelector('.prev');
+        const nextBtn = document.querySelector('.next');
+
+        if (slider && prevBtn && nextBtn) {
+            nextBtn.onclick = () => slider.scrollBy({ left: 400, behavior: 'smooth' });
+            prevBtn.onclick = () => slider.scrollBy({ left: -400, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
